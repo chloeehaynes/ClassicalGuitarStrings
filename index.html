@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="How to Choose Classical Guitar Strings">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+    <title>Choosing Classical Guitar Strings</title>
+</head>
+
+
+<body>
+
+    <!-- heading -->
+    <div id = "heading">
+        <h1>Choosing Classical Guitar Strings</h1>
+    </div>
+
+    <br>
+
+    <!-- introduction-->
+    <div>
+        <h2>Background</h2>
+        <!-- info -->
+    </div>
+
+    <br>
+
+    <!-- materials -->
+    <div id = "materials">
+        <h2>Materials</h2>
+
+        <div id = "treble">
+            <h3>Treble Strings</h3>
+        </div>
+
+        <div id = "bass">
+            <h3>Bass Strings</h3>
+        </div>
+        <!-- info -->
+    </div>
+
+    <br>
+
+    <!-- tension level-->
+    <div>
+        <h2>Tension Level</h2>
+        <!-- info -->
+    </div>
+
+    <br>
+    <hr>
+    <div id = "quiz-section">
+        <h2>Still not sure where to start?</h2>
+        <p>That's totally understandable! A lot of factors go into choosing your strings.</p>
+        <p>For a quick suggestion, take this short quiz.</p>
+
+        <form id = "question-1">
+            <h3>What stage of guitar playing would you consider yourself to be in?</h3>
+            <input type="radio" id="beginner" name="level" value="beginner" checked = "checked">
+            <label for="beginner">Beginner</label>
+            <br>
+            <input type="radio" id="intermediate" name="level" value="intermediate">
+            <label for="intermediate">Intermediate</label>
+            <br>
+            <input type="radio" id="advanced" name="level" value="advanced">
+            <label for="advanced">Advanced</label>
+            <br>
+        </form>
+
+        <form id = "question-2">
+            <h3>For low notes, what type of sound do you prefer?</h3>
+            <input type="radio" id="bronze-sound" name="bass-sound" value="bronze-sound" checked = "checked">
+            <label for="bronze-sound">Mellow & Rich</label>
+            <br>
+            <input type="radio" id="silver-sound" name="bass-sound" value="silver-sound">
+            <label for="silver-sound">Crisp & Articulate</label>
+            <br>
+            <input type="radio" id="neutral-sound" name="bass-sound" value="neutral-sound">
+            <label for="neutral-sound">No Preference (or not sure)</label>
+            <br>
+        </form>
+
+        <form id = "question-3">
+            <h3>How important is it to you that your strings will last a long time and will be protected against damage?</h3>
+            <input type="radio" id="very" name="corrosiveness" value="very" checked = "checked">
+            <label for="very">Very important; would rather not buy new strings frequently.</label>
+            <br>
+            <input type="radio" id="not" name="corrosiveness" value="not">
+            <label for="not">Not too important; okay with needing to replace more often.</label>
+            <br>
+        </form>
+
+        <form id = "question-4">
+            <h3>For high notes, what type of sound do you prefer?</h3>
+            <input type="radio" id="black-sound" name="treble-sound" value="black-sound" checked = "checked">
+            <label for="black-sound">Strong & Crisp</label>
+            <br>
+            <input type="radio" id="clear-sound" name="treble-sound" value="clear-sound">
+            <label for="clear-sound">Soft & Mellow</label>
+            <br>
+            <input type="radio" id="impartial-sound" name="treble-sound" value="impartial-sound">
+            <label for="impartial-sound">No Preference (or not sure)</label>
+            <br>
+        </form>
+
+        <button id = "submit-quiz">GIVE ME A SUGGESTION</button>
+    </div>
+
+    <div id = "quiz-result">
+        <h3 id = "string-result"></h3>
+        <p id = "string-reasoning"></p>
+        <p>Click <a id = "link-to-site" href="https://www.daddario.com/products/guitar/classical-guitar/pro-arte-nylon">here</a> to check out these strings on D'Addario's website.</p>
+    </div>
+    
+
+    <!-- link to javascript file -->
+    <script src="functionality.js"></script>
+
+
+</body>
+
+</html>
