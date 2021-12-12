@@ -12,6 +12,9 @@ const SILVER = 1;
 
 
 function generateStringChoice(){
+    setTensionLevel();
+    setBassMaterial();
+    setTrebleMaterial();
 
     var string_decison = "";
     var string_description = "";
@@ -64,7 +67,7 @@ function generateStringChoice(){
         }
     }
 
-    document.getElementById("string-result").innerHTML = string_decison + " would be a great fit for you!";
+    document.getElementById("string-result").innerHTML = string_decison + " strings would be a great fit for you!";
     document.getElementById("string-reasoning").innerHTML = string_description;
     document.getElementById("link-to-site").href = string_link;
 }
@@ -74,3 +77,37 @@ document.getElementById("submit-quiz").addEventListener("click", function (event
     document.getElementById("quiz-result").style.display = "block";
 
 });
+
+
+function setTensionLevel(){
+    var user_input = document.querySelector('input[name="level"]:checked').value;
+    if (user_input == "beginner"){
+        tension_level = NORMAL;
+    } else {
+        tension_level = HARD;
+    }
+
+}
+
+function setBassMaterial(){
+    var user_input_1 = document.querySelector('input[name="bass-sound"]:checked').value;
+    var user_input_2 = document.querySelector('input[name="corrosiveness"]:checked').value;
+
+    if (user_input_1 == "bronze-sound" && user_input_2 == "not"){
+        bass_material = BRONZE;
+    } else{
+        bass_material = SILVER;
+    }
+
+}
+
+function setTrebleMaterial(){
+    var user_input = document.querySelector('input[name="treble-sound"]:checked').value;
+
+    if (user_input == "black-sound" && bass_material == SILVER){
+        treble_material = BLACK;
+    } else{
+        treble_material = CLEAR;
+    }
+
+}
