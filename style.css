@@ -62,5 +62,35 @@ button{
 }
 
 .current-page{
-    text-decoration: underline;
+    text-decoration: underline overline double;
+}
+
+th a{
+    text-decoration: none;
+    font-family: "Arial";
+    background-color: #2d431a;
+    color: #cacfc6;
+}
+
+th{
+    background-color: #2d431a;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cover{
+    margin-top: 80px;
+    text-align: center;
+    
+}
+
+.cover img{
+    width: 50vw;
+}
+
+.cover table{
+    margin: auto;
+    margin-top: 20px;
 }
