@@ -36,10 +36,9 @@ span{
 
 }
 
-#page-contents{
-    border-top: 1px solid #7d916c;
-    font-weight: normal;
-}
+
+
+
 
 
 .nav-bar a{
@@ -49,6 +48,19 @@ span{
     color: #cacfc6;
     text-decoration: none;
     border: 1px solid #2d431a;
+}
+
+#page-contents{
+    margin-top: 10px;
+    background-color: #527336;
+
+}
+
+
+#page-contents a, #page-contents span{
+    font-weight: lighter;
+    background-color: #527336;
+    border: none;
 }
 
 button{
