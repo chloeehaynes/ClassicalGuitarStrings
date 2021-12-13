@@ -1,13 +1,16 @@
 *{
-    margin: 5px;
+    margin: 0px;
     color: #2d431a;
     background-color: #cacfc6;
-    text-decoration: none;
+}
 
+div{
+    margin: 10px;
 }
 
 a{
     margin: 0px;
+
 }
 
 hr{
@@ -16,12 +19,35 @@ hr{
 
 .nav-bar{
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    background-color: #2d431a;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    width: 100vw;
+    height: 27px;
+    
 }
+
+span{
+    background-color: #2d431a;
+    vertical-align: middle;
+
+}
+
+#page-contents{
+    border-top: 1px solid #7d916c;
+}
+
 
 .nav-bar a{
     font-weight: bold;
     font-family: "Arial";
+    background-color: #2d431a;
+    color: #cacfc6;
+    text-decoration: none;
+    border: 1px solid #2d431a;
 }
 
 button{
@@ -31,5 +57,5 @@ button{
     border-radius: 5px;
     padding: 8px 20px;
     font-weight: bold;
-    font-size: 14px;;
+    font-size: 14px;
 }
