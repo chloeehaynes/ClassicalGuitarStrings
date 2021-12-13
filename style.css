@@ -108,3 +108,31 @@ th{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.comparison th{ 
+    background-color: #cacfc6;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 0px;
+    margin: 0px;
+    border-collapse: collapse;
+}
+
+.comparison td{ 
+    background-color: #cacfc6;
+    padding-left: 5px;
+    padding-right: 10px;
+    border: 1px solid black;
+    border-radius: 0px;
+    margin: 0px;
+    border-collapse: collapse;
+
+}
+
+.comparison{
+    border-collapse: collapse;
+}
+
+h4{
+    font-weight: normal;
+}
