@@ -60,3 +60,7 @@ button{
     font-weight: bold;
     font-size: 14px;
 }
+
+.current-page{
+    text-decoration: underline;
+}
