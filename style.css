@@ -59,6 +59,7 @@ span{
 
 #page-contents a, #page-contents span{
     font-weight: lighter;
+    font-size: small;
     background-color: #527336;
     border: none;
 }
