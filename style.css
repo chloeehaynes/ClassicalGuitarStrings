@@ -208,3 +208,15 @@ iframe{
 .small-img{
     width: 30vw;
 }
+
+img.small-img{
+    margin-top: 20px;
+}
+
+p.small-img{
+    margin-bottom: 20px;
+}
+
+div{
+    margin-bottom: 50px;
+}
