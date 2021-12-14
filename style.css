@@ -13,6 +13,10 @@ a{
 
 }
 
+h1{
+    font-family: "Arial";
+}
+
 hr{
     border: 1px solid #7d916c;
 }
@@ -130,6 +134,8 @@ th{
 }
 
 .comparison{
+    margin: auto;
+    margin-bottom: 20px;
     border-collapse: collapse;
 }
 
@@ -142,4 +148,19 @@ form{
 #quiz-result{
     border: 4px double black;
     padding: 5px;
+    display: none;
+}
+
+h4{
+    margin-top: 10px;
+    text-align: center;
+}
+
+h2{
+    margin-top: 40px;
+    font-family: "Arial";
+}
+
+p{
+    margin-bottom: 10px;
 }
