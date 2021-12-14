@@ -69,6 +69,7 @@ function generateStringChoice(){
 
     document.getElementById("string-result").innerHTML = string_decison + " strings would be a great fit for you!";
     document.getElementById("string-reasoning").innerHTML = string_description;
+    document.getElementById("quiz-img").src = "quiz-images/" + string_decison + ".jpg";
     document.getElementById("link-to-site").href = string_link;
 }
 
