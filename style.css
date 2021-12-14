@@ -178,3 +178,19 @@ img{
     margin: auto;
     width: 70vw;
 }
+
+iframe{
+    display: block;
+    margin: auto;
+    width: 70vw;
+}
+
+
+.caption{
+    display: block;
+    margin: auto;
+    width: 70vw;
+    font-size: small;
+    text-align: center;
+    padding-top: 5px;
+}
