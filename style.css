@@ -103,9 +103,7 @@ th{
     
 }
 
-.cover img{
-    width: 50vw;
-}
+
 
 .cover table{
     margin: auto;
@@ -163,4 +161,15 @@ h2{
 
 p{
     margin-bottom: 10px;
+}
+
+.cover h1, .cover h2{
+    font-family: auto;
+}
+
+
+img{
+    display: block;
+    margin: auto;
+    width: 70vw;
 }
