@@ -133,6 +133,13 @@ th{
     border-collapse: collapse;
 }
 
-h4{
-    font-weight: normal;
+
+form{
+    padding-bottom: 20px;
+}
+
+
+#quiz-result{
+    border: 4px double black;
+    padding: 5px;
 }
