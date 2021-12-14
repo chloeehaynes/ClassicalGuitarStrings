@@ -204,3 +204,7 @@ iframe{
     margin: auto;
     text-align: center;
 }
+
+.small-img{
+    width: 50vw;
+}
