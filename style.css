@@ -223,6 +223,7 @@ div{
 
 #quiz-img{
     display: block;
-    float: left;
     width: 30vw;
+    padding-bottom: 20px;
+    margin-left: 0px;
 }
