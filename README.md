@@ -6,4 +6,4 @@ This website provides information for beginning to advanced level guitarists on 
 
 
 
-* created for Technical Writing Final Research Project at McKelvey School of Engineering, Washington University in St. Louis *
+*created for Technical Writing Final Research Project at McKelvey School of Engineering, Washington University in St. Louis*
