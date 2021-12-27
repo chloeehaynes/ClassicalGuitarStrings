@@ -1,5 +1,3 @@
-# ClassicalGuitarStrings
- 
 # Choosing Classical Guitar Strings
 ## A Guide for Guitarists of All Levels
 ##### [Open Site](https://chloeehaynes.github.io/ClassicalGuitarStrings/) 
